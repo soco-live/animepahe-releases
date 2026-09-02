@@ -91,16 +91,9 @@ Tap your link → Allow → Open → Install. No extra steps.
 
 ### Sister Apps
 
-<p align="center">
-  <a href="https://github.com/soco-live/socolive-releases"><img src="assets/socolive_logo.png" width="80" alt="Socolive TV"><br><sub><strong>Socolive TV</strong></sub><br><sub>Live football</sub></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/soco-live/nkiri-releases"><img src="assets/nkiri_logo.png" width="80" alt="Nkiri TV"><br><sub><strong>Nkiri TV</strong></sub><br><sub>Movies & series</sub></a>
-</p>
-
-<p align="center">
-  <a href="https://soco-live.github.io"><img src="https://img.shields.io/badge/Socolive%20Site-soco--live.github.io-f59e0b?style=flat-square&logo=github" alt="site"></a>
-  <a href="https://github.com/soco-live/nkiri-releases"><img src="https://img.shields.io/badge/Nkiri%20Releases-0EA5E9?style=flat-square" alt="nkiri"></a>
-</p>
+| App | App |
+|---|---|
+| <a href="https://github.com/soco-live/socolive-releases#readme"><img src="assets/socolive_logo.png" width="80" alt="Socolive TV"><br><sub><strong>Socolive TV</strong></sub></a> | <a href="https://github.com/soco-live/nkiri-releases#readme"><img src="assets/nkiri_logo.png" width="80" alt="Nkiri TV"><br><sub><strong>Nkiri TV</strong></sub></a> |
 
 ---
 
