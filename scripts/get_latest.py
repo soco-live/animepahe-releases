@@ -1,39 +1,45 @@
-import httpx, json, sys
-# Try AnimePahe first (will be 403 behind CF), then AniList fallback — user requested try -> fallback
-QUERY = """
-query { Page(perPage: 6) { media(type: ANIME, status: RELEASING, sort: POPULARITY_DESC) { title { romaji english } coverImage { large } averageScore episodes format seasonYear } } }
-"""
-def fetch_animepahe():
+import httpx, json, sys, datetime
+def fetch_today():
+    now = datetime.datetime.now(datetime.timezone.utc)
+    start = datetime.datetime(now.year, now.month, now.day, tzinfo=datetime.timezone.utc)
+    end = start + datetime.timedelta(days=1)
+    start_ts = int(start.timestamp()); end_ts = int(end.timestamp())
+    QUERY = """
+    query ($page: Int, $perPage: Int, $airingAt_greater: Int, $airingAt_lesser: Int) {
+      Page(page: $page, perPage: $perPage) {
+        airingSchedules(airingAt_greater: $airingAt_greater, airingAt_lesser: $airingAt_lesser, sort: TIME) {
+          airingAt episode media { title { romaji english } coverImage { large } averageScore }
+        }
+      }
+    }
+    """
     try:
-        with httpx.Client(timeout=12, follow_redirects=True, headers={"User-Agent":"Mozilla/5.0", "Referer":"https://animepahe.com/"}) as c:
-            r = c.get("https://animepahe.com/api", params={"m":"airing","page":"1"})
-            if r.status_code == 200 and r.headers.get("content-type","").startswith("application/json"):
-                j = r.json()
+        with httpx.Client(timeout=15) as c:
+            r = c.post("https://graphql.anilist.co", json={"query": QUERY, "variables": {"page":1, "perPage":6, "airingAt_greater": start_ts, "airingAt_lesser": end_ts}}, headers={"Content-Type":"application/json"})
+            r.raise_for_status()
+            data = r.json()["data"]["Page"]["airingSchedules"]
+            if data:
                 out=[]
-                for i in j.get("data", [])[:6]:
-                    out.append({"title": i.get("anime_title",""), "cover": i.get("snapshot",""), "score": None, "episodes": i.get("episode"), "format":"TV"})
-                if out:
-                    return out
+                for s in data:
+                    m=s["media"]; title=m["title"]["english"] or m["title"]["romaji"]
+                    out.append({"title": title, "cover": m["coverImage"]["large"], "score": m.get("averageScore"), "episode": s.get("episode")})
+                return out
     except Exception as e:
-        print(f"animepahe fetch failed {e}", file=sys.stderr)
+        print(f"today fetch failed {e}", file=sys.stderr)
     return None
 
-def fetch_anilist():
+def fetch_popular():
+    Q="""query { Page(perPage: 6) { media(type: ANIME, status: RELEASING, sort: POPULARITY_DESC) { title { romaji english } coverImage { large } averageScore } } }"""
     with httpx.Client(timeout=15) as c:
-        r = c.post("https://graphql.anilist.co", json={"query": QUERY}, headers={"Content-Type":"application/json"})
+        r=c.post("https://graphql.anilist.co", json={"query": Q}, headers={"Content-Type":"application/json"})
         r.raise_for_status()
-        data = r.json()["data"]["Page"]["media"]
-        out=[]
-        for m in data:
-            title = m["title"]["english"] or m["title"]["romaji"]
-            out.append({"title": title, "cover": m["coverImage"]["large"], "score": m.get("averageScore"), "episodes": m.get("episodes"), "format": m.get("format")})
-        return out
+        data=r.json()["data"]["Page"]["media"]
+        return [{"title": (m["title"]["english"] or m["title"]["romaji"]), "cover": m["coverImage"]["large"], "score": m.get("averageScore"), "episode": None} for m in data]
 
 def get_latest():
-    ap = fetch_animepahe()
-    if ap:
-        return ap
-    return fetch_anilist()
+    today = fetch_today()
+    if today: return today
+    return fetch_popular()
 
-if __name__ == "__main__":
+if __name__=="__main__":
     print(json.dumps({"latest": get_latest()}, indent=2))

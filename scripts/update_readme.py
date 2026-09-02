@@ -6,14 +6,13 @@ def get_latest():
     if result.returncode!=0: raise RuntimeError(result.stderr or result.stdout)
     return json.loads(result.stdout)["latest"]
 def fmt(items):
-    # Professional grid with covers - GitHub supports HTML, use simple table with images
     rows=[]
     for it in items[:6]:
-        cover=it.get("cover","")
-        title=it.get("title","").replace("|","\\|")
+        cover=it.get("cover",""); title=it.get("title","").replace('"','&quot;')
+        ep=f"Ep {it.get('episode')}" if it.get("episode") else ""
         score=f"{it['score']/10:.1f}★" if it.get("score") else ""
-        rows.append(f'<td align="center"><img src="{cover}" width="110" alt="{title}"><br><sub><strong>{title}</strong></sub><br><sub>{score}</sub></td>')
-    # 3 per row
+        # All links to our download anchor, not external
+        rows.append(f'<td align="center"><a href="#download"><img src="{cover}" width="110" alt="{title}"><br><sub><strong>{title}</strong></sub><br><sub>{ep} {score}</sub></a></td>')
     html=['<table><tr>']
     for i, cell in enumerate(rows):
         html.append(cell)
@@ -24,11 +23,11 @@ def post_fb(latest):
     fb_page=os.environ.get("FB_PAGE_ID"); fb_token=os.environ.get("FB_PAGE_ACCESS_TOKEN")
     if not fb_page or not fb_token: return
     try:
-        lines=["🔥 Latest Anime on AnimePahe TV"]
+        lines=["🔥 Today on AnimePahe TV"]
         for it in latest[:5]:
-            title=it.get("title",""); score=f" ⭐ {it['score']/10:.1f}" if it.get("score") else ""
-            lines.append(f"🎬 {title}{score}")
-        lines.append("\n📲 https://github.com/soco-live/animepahe-releases/releases/latest")
+            title=it.get("title",""); ep=f" Ep{it.get('episode')}" if it.get("episode") else ""
+            lines.append(f"🎬 {title}{ep}")
+        lines.append("\n📲 https://github.com/soco-live/animepahe-releases#download")
         message="\n".join(lines)
         last_file=os.path.join(REPO,".fb_last_post_id")
         if os.path.exists(last_file):
