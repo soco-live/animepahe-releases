@@ -37,6 +37,9 @@
 > [!TIP]
 > **Not sure which one?** Pick **Universal** — it runs on every Android, just larger.
 
+> [!IMPORTANT]
+> **Before you install:** Enable *Unknown Sources* on TV, or allow the browser to install APKs on phone. No account needed.
+
 > [!NOTE]
 > Permanent link: `https://github.com/soco-live/animepahe-releases/releases/latest/download/animepahe-tv.apk`
 
@@ -89,9 +92,9 @@ Tap your link → Allow → Open → Install. No extra steps.
 ### Sister Apps
 
 <p align="center">
-  <a href="https://github.com/soco-live/socolive-releases"><img src="https://raw.githubusercontent.com/soco-live/socolive-tv/main/src/assets/icon.png" width="80" alt="Socolive TV"><br><sub><strong>Socolive TV</strong></sub><br><sub>Live football</sub></a>
+  <a href="https://github.com/soco-live/socolive-releases"><img src="assets/socolive_logo.png" width="80" alt="Socolive TV"><br><sub><strong>Socolive TV</strong></sub><br><sub>Live football</sub></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/soco-live/nkiri-releases"><img src="https://raw.githubusercontent.com/soco-live/nkiri-tv/main/src/assets/icon.png" width="80" alt="Nkiri TV"><br><sub><strong>Nkiri TV</strong></sub><br><sub>Movies & series</sub></a>
+  <a href="https://github.com/soco-live/nkiri-releases"><img src="assets/nkiri_logo.png" width="80" alt="Nkiri TV"><br><sub><strong>Nkiri TV</strong></sub><br><sub>Movies & series</sub></a>
 </p>
 
 <p align="center">
