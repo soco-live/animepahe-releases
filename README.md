@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/soco-live/animepahe-releases/releases/latest"><img src="https://img.shields.io/github/v/release/soco-live/animepahe-releases?label=version&style=flat-square&color=00B0FF" alt="release"></a>
+  <a href="https://github.com/soco-live/animepahe-releases/releases/latest"><img src="https://img.shields.io/github/v/release/soco-live/animepahe-releases?include_prereleases&label=version&style=flat-square&color=00B0FF" alt="release"></a>
   <img src="https://img.shields.io/badge/platform-Android%20%7C%20Android%20TV%20%7C%20Firestick-3DDC84?style=flat-square&logo=android" alt="platform">
 </p>
 
