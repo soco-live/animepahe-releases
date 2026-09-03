@@ -42,13 +42,13 @@
 
 <!-- LATEST_START -->
 <table><tr>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199409-tZnVTAQ9P6fY.png" width="110" alt="Yi Nian Yongheng 4"><br><sub><strong>Yi Nian Yongheng 4</strong></sub><br><sub>Ep 9 </sub></a></td>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b213486-0hRJQlfdtajf.png" width="110" alt="Fabulous Beasts 6"><br><sub><strong>Fabulous Beasts 6</strong></sub><br><sub>Ep 6 </sub></a></td>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188529-6o9byjahRpEx.jpg" width="110" alt="Cat Tales"><br><sub><strong>Cat Tales</strong></sub><br><sub>Ep 47 5.3★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx194389-DAbj4TOj5GB9.png" width="110" alt="Koala's Diary"><br><sub><strong>Koala's Diary</strong></sub><br><sub>Ep 48 5.2★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx203880-lnruKftb27Nr.png" width="110" alt="Dara-san of the Reiwa Era"><br><sub><strong>Dara-san of the Reiwa Era</strong></sub><br><sub>Ep 10 6.5★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx201667-oqaW97DQ7HUj.jpg" width="110" alt="Bungo Stray Dogs WAN! 2"><br><sub><strong>Bungo Stray Dogs WAN! 2</strong></sub><br><sub>Ep 10 7.4★</sub></a></td>
 </tr><tr>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198946-IGXmbqBEYRYD.jpg" width="110" alt="Clevatess Season 2"><br><sub><strong>Clevatess Season 2</strong></sub><br><sub>Ep 9 7.5★</sub></a></td>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx135865-T7XIPMAbqcxN.png" width="110" alt="Saga of Tanya the Evil Season 2"><br><sub><strong>Saga of Tanya the Evil Season 2</strong></sub><br><sub>Ep 9 8.1★</sub></a></td>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189046-yaHWtS5FII46.jpg" width="110" alt="Re:ZERO -Starting Life in Another World- Season 4"><br><sub><strong>Re:ZERO -Starting Life in Another World- Season 4</strong></sub><br><sub>Ep 15 9.0★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187166-ASfp7wErGrxQ.png" width="110" alt="GANSO! BanG Dream Chan"><br><sub><strong>GANSO! BanG Dream Chan</strong></sub><br><sub>Ep 48 6.8★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198376-sc5qcFv0RSH9.jpg" width="110" alt="BanG Dream! YUME∞MITA"><br><sub><strong>BanG Dream! YUME∞MITA</strong></sub><br><sub>Ep 12 7.4★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108992-skuOsfmLmMd2.jpg" width="110" alt="Mebius Dust"><br><sub><strong>Mebius Dust</strong></sub><br><sub>Ep 9 4.8★</sub></a></td>
 </tr></table>
 <!-- LATEST_END -->
 
