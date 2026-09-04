@@ -42,13 +42,13 @@
 
 <!-- LATEST_START -->
 <table><tr>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx194389-DAbj4TOj5GB9.png" width="110" alt="Koala's Diary"><br><sub><strong>Koala's Diary</strong></sub><br><sub>Ep 48 5.2★</sub></a></td>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx203880-lnruKftb27Nr.png" width="110" alt="Dara-san of the Reiwa Era"><br><sub><strong>Dara-san of the Reiwa Era</strong></sub><br><sub>Ep 10 6.5★</sub></a></td>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx201667-oqaW97DQ7HUj.jpg" width="110" alt="Bungo Stray Dogs WAN! 2"><br><sub><strong>Bungo Stray Dogs WAN! 2</strong></sub><br><sub>Ep 10 7.4★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191832-bsnCaLNVjzEw.png" width="110" alt="Link Click Season 3"><br><sub><strong>Link Click Season 3</strong></sub><br><sub>Ep 5 8.4★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213484-FIyYH43ASHgB.png" width="110" alt="Crowned in a Hundred Days"><br><sub><strong>Crowned in a Hundred Days</strong></sub><br><sub>Ep 22 6.2★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx158871-GBM9AMDfDRSu.jpg" width="110" alt="Pokémon Horizons: The Series"><br><sub><strong>Pokémon Horizons: The Series</strong></sub><br><sub>Ep 148 7.3★</sub></a></td>
 </tr><tr>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx187166-ASfp7wErGrxQ.png" width="110" alt="GANSO! BanG Dream Chan"><br><sub><strong>GANSO! BanG Dream Chan</strong></sub><br><sub>Ep 48 6.8★</sub></a></td>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198376-sc5qcFv0RSH9.jpg" width="110" alt="BanG Dream! YUME∞MITA"><br><sub><strong>BanG Dream! YUME∞MITA</strong></sub><br><sub>Ep 12 7.4★</sub></a></td>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108992-skuOsfmLmMd2.jpg" width="110" alt="Mebius Dust"><br><sub><strong>Mebius Dust</strong></sub><br><sub>Ep 9 4.8★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx165159-aCFC9Sng7t4M.png" width="110" alt="BEYBLADE X"><br><sub><strong>BEYBLADE X</strong></sub><br><sub>Ep 133 6.4★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199748-PAFk9pGSUmFL.png" width="110" alt="I Became a Legend After My 10 Year-Long Last Stand"><br><sub><strong>I Became a Legend After My 10 Year-Long Last Stand</strong></sub><br><sub>Ep 10 6.3★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx196218-UsdTTCrwpDIN.jpg" width="110" alt="The Frontier Lord Begins with Zero Subjects"><br><sub><strong>The Frontier Lord Begins with Zero Subjects</strong></sub><br><sub>Ep 10 6.7★</sub></a></td>
 </tr></table>
 <!-- LATEST_END -->
 
