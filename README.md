@@ -42,13 +42,13 @@
 
 <!-- LATEST_START -->
 <table><tr>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191832-bsnCaLNVjzEw.png" width="110" alt="Link Click Season 3"><br><sub><strong>Link Click Season 3</strong></sub><br><sub>Ep 5 8.4★</sub></a></td>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213484-FIyYH43ASHgB.png" width="110" alt="Crowned in a Hundred Days"><br><sub><strong>Crowned in a Hundred Days</strong></sub><br><sub>Ep 22 6.2★</sub></a></td>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx158871-GBM9AMDfDRSu.jpg" width="110" alt="Pokémon Horizons: The Series"><br><sub><strong>Pokémon Horizons: The Series</strong></sub><br><sub>Ep 148 7.3★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b183231-z7SgjmXZBcoX.png" width="110" alt="RILAKKUMA"><br><sub><strong>RILAKKUMA</strong></sub><br><sub>Ep 23 6.2★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx214260-m2fg5OwduwSt.jpg" width="110" alt="A Good Day to Ascend"><br><sub><strong>A Good Day to Ascend</strong></sub><br><sub>Ep 10 </sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137683-IMuvIECdZNBh.png" width="110" alt="Soul Land 2: The Peerless Tang Clan"><br><sub><strong>Soul Land 2: The Peerless Tang Clan</strong></sub><br><sub>Ep 169 7.6★</sub></a></td>
 </tr><tr>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx165159-aCFC9Sng7t4M.png" width="110" alt="BEYBLADE X"><br><sub><strong>BEYBLADE X</strong></sub><br><sub>Ep 133 6.4★</sub></a></td>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199748-PAFk9pGSUmFL.png" width="110" alt="I Became a Legend After My 10 Year-Long Last Stand"><br><sub><strong>I Became a Legend After My 10 Year-Long Last Stand</strong></sub><br><sub>Ep 10 6.3★</sub></a></td>
-<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx196218-UsdTTCrwpDIN.jpg" width="110" alt="The Frontier Lord Begins with Zero Subjects"><br><sub><strong>The Frontier Lord Begins with Zero Subjects</strong></sub><br><sub>Ep 10 6.7★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b966-QUCdKAk4ls9J.jpg" width="110" alt="Shin Chan"><br><sub><strong>Shin Chan</strong></sub><br><sub>Ep 1351 7.7★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8687-bBnJMGnih4PT.jpg" width="110" alt="Doraemon (2005)"><br><sub><strong>Doraemon (2005)</strong></sub><br><sub>Ep 931 7.7★</sub></a></td>
+<td align="center"><a href="#download"><img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171110-7zOdInS6DQNL.jpg" width="110" alt="Ascendance of a Bookworm: Adopted Daughter of an Archduke"><br><sub><strong>Ascendance of a Bookworm: Adopted Daughter of an Archduke</strong></sub><br><sub>Ep 20 7.6★</sub></a></td>
 </tr></table>
 <!-- LATEST_END -->
 
